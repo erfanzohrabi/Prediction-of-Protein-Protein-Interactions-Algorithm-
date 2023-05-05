@@ -4,7 +4,7 @@ from Bio.PDB import PDBParser
 parser = PDBParser() 
 
 # Read in the PDB file and get the structure object
-structure = parser.get_structure("protein", "protein.pdb")
+structure = parser.get_structure("protein", "4cri.pdb")
 
 # Get the first model in the structure object
 model = structure[0]
